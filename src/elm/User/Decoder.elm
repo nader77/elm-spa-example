@@ -11,3 +11,6 @@ decodeFromGithub =
         |: ("avatar_url" := Json.Decode.string)
         |: ("login" := Json.Decode.string)
         |: ("name" := Json.Decode.maybe Json.Decode.string)
+        |: ("company" := Json.Decode.maybe Json.Decode.string)
+        |: ("created_at" := Json.Decode.string)
+        |: ("followers" := Json.Decode.int)
