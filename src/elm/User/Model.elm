@@ -8,4 +8,7 @@ type alias User =
         -- In GitHub user might not have a name, just the login handler, so this
         -- is a "Maybe" value.
     , name : Maybe String
+    , company: Maybe String
+    , created: String
+    , followers: Int
     }
